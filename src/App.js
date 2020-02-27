@@ -1,12 +1,11 @@
 import React, { Component } from "react";
 import Header from './components/Layout/Header';
-import Card from './components/Layout/Card';
-
+import Grid from './components/Projects/Grid';
 export default class extends Component {
   render() {
     return <wrapper>
       <Header/>
-      <Card/>
+      <Grid/>
     </wrapper>
   }
 }
