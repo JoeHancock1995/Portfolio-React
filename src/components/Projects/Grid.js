@@ -1,14 +1,15 @@
 import React from 'react';
 import { Grid } from '@material-ui/core';
-import Card1 from './Card1';
-import Card2 from './Card2';
-import Card3 from './Card3';
-import Card4 from './Card4';
-import Card5 from './Card5';
-import Card6 from './Card6';
-import Card7 from './Card7';
-import Card8 from './Card8';
-import Card9 from './Card9';
+import Card1 from './Cards/Card1';
+import Card2 from './Cards/Card2';
+import Card3 from './Cards/Card3';
+import Card4 from './Cards/Card4';
+import Card5 from './Cards/Card5';
+import Card6 from './Cards/Card6';
+import Card7 from './Cards/Card7';
+import Card8 from './Cards/Card8';
+import Card9 from './Cards/Card9';
+
 
 
 
