@@ -1,10 +1,10 @@
 import React from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
 import useScrollTrigger from '@material-ui/core/useScrollTrigger';
 import Slide from '@material-ui/core/Slide';
 import './Layout.css';
+
 
 function HideOnScroll(props) {
   const { children, window } = props;
@@ -27,7 +27,18 @@ export default function HideAppBar(props) {
       <HideOnScroll {...props}>
         <AppBar >
           <Toolbar className='header'>
-            <Typography variant="h2">Joe Hancock</Typography>
+            <h1>Joe Hancock</h1>
+              <ul className="navbar-nav ml-auto">
+                <li className="nav-item linkstr">
+                   <h5>Github</h5>
+                </li>
+                <li className="nav-item linkstr">
+                   <h5>LinkedIn</h5>
+                </li>
+                <li className="nav-item linkstr">
+                   <h5>Contact Me</h5>
+                </li>
+            </ul>
           </Toolbar>
         </AppBar>
       </HideOnScroll>
