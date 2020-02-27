@@ -32,19 +32,18 @@ export default function MediaCard() {
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Project Name
+            Liri App
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            Enter project details here 
+          LIRI acts like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface,
+           LIRI is a Language Interpretation and Recognition Interface. LIRI is be a command line node app which
+            uses the axios package to send requests to the Bands in Town, Spotify and OMDB APIs gives back data.
           </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
         <Button size="small" color="primary">
-          Share
-        </Button>
-        <Button size="small" color="primary">
-          Learn More
+            View Source Code
         </Button>
       </CardActions>
     </Card>
