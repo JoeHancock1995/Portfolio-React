@@ -4,6 +4,8 @@ import Toolbar from '@material-ui/core/Toolbar';
 import useScrollTrigger from '@material-ui/core/useScrollTrigger';
 import Slide from '@material-ui/core/Slide';
 import './Layout.css';
+import linkedin from './vectors/linkedin-6-48.png';
+import github from './vectors/github-10-48.png';
 
 
 function HideOnScroll(props) {
@@ -28,17 +30,18 @@ export default function HideAppBar(props) {
         <AppBar >
           <Toolbar className='header'>
             <h1>Joe Hancock</h1>
-              <ul className="navbar-nav ml-auto">
-                <li className="nav-item linkstr">
-                   <h5>Github</h5>
-                </li>
-                <li className="nav-item linkstr">
-                   <h5>LinkedIn</h5>
-                </li>
-                <li className="nav-item linkstr">
-                   <h5>Contact Me</h5>
-                </li>
-            </ul>
+            <nav>
+              <div className="linkedin">
+                <a class="active" href="https://www.linkedin.com/in/joe-hancock-7677ab77/"><img src={linkedin} alt="linkedin vector"/></a>
+              </div>
+              <div className="github">
+                <a class="active" href="https://github.com/JoeHancock1995"><img src={github} alt="github vector"/></a>
+              </div>
+              {/* <div className="email">
+                <a class="active" href=mailto: joe.hancock95@gmail.com?subject="HTML link"><p>linkedin</p></a>
+              </div> */}
+              {/* <div id="MyClockDisplay" class="clock" onload="showTime()"></div> */}
+            </nav>
           </Toolbar>
         </AppBar>
       </HideOnScroll>
