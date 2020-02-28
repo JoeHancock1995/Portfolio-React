@@ -7,6 +7,8 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import wordthumbnail from './image/wordthumbnail.png';
+
 
 const useStyles = makeStyles({
   root: {
@@ -27,7 +29,7 @@ export default function MediaCard() {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image="/static/images/cards/contemplative-reptile.jpg"
+          image={wordthumbnail}
           title="Contemplative Reptile"
         />
         <CardContent>
