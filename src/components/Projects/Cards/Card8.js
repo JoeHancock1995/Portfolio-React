@@ -30,7 +30,6 @@ export default function MediaCard() {
         <CardMedia
           className={classes.media}
           image={lirithumbnail}
-          title="Contemplative Reptile"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">

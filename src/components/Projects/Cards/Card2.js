@@ -18,7 +18,6 @@ const useStyles = makeStyles({
   media: {
     height: 60,
     width: 400,
-    marginTop: 40,
   },
 });
 
@@ -31,7 +30,6 @@ export default function MediaCard() {
         <CardMedia
           className={classes.media}
           image={repthumbnail}
-          title="Contemplative Reptile"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">

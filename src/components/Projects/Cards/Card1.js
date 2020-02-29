@@ -18,7 +18,6 @@ const useStyles = makeStyles({
   media: {
     height: 60,
     width: 400,
-    marginTop: 40,
   },
 });
 
@@ -36,10 +35,10 @@ export default function MediaCard() {
           <Typography gutterBottom variant="h5" component="h2">
             Send Codes
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
+          <p>
           A project for web developers to acces templates and code snippets to facilitate learning.
           Send-Codes is built to simplify boilerplates and access useful commands in a simple straight forward manner.
-          </Typography>
+          </p>
         </CardContent>
       </CardActionArea>
       <CardActions>

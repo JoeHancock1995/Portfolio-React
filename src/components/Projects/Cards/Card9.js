@@ -30,7 +30,6 @@ export default function MediaCard() {
         <CardMedia
           className={classes.media}
           image={Triviathumbnail}
-          title=""
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">

@@ -31,7 +31,6 @@ export default function MediaCard() {
         <CardMedia
           className={classes.media}
           image={googlePF}
-          title="Contemplative Reptile"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
