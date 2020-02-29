@@ -30,7 +30,7 @@ export default function HideAppBar(props) {
         <AppBar >
           <Toolbar className='header'>
             <h1>Joe Hancock</h1>
-            <nav>
+            <nav className="vectors">
               <div className="linkedin">
                 <a class="active" href="https://www.linkedin.com/in/joe-hancock-7677ab77/"><img src={linkedin} alt="linkedin vector"/></a>
               </div>

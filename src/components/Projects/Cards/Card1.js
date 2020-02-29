@@ -7,17 +7,17 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import sendcodes1 from './image/sendcodes1.png';
+import sendcodes1 from './image/sendcodes2.png';
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 360,
+    maxWidth: 400,
     marginLeft: 40,
     marginTop: 40,
   },
   media: {
     height: 60,
-    width: 360,
+    width: 400,
     marginTop: 80,
   },
 });
