@@ -7,7 +7,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import Triviathumbnail from './image/triviathumbnail.png';
+import Triviathumbnail from './image/triviathumbnail2.png';
 
 const useStyles = makeStyles({
   root: {
@@ -16,8 +16,9 @@ const useStyles = makeStyles({
     marginTop: 40,
   },
   media: {
-    height: 140,
-  },
+    height: 60,
+    width: 400,
+    },
 });
 
 export default function MediaCard() {

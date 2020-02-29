@@ -7,7 +7,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import giphythumbnail from './image/giphythumbnail.png';
+import giphythumbnail from './image/giphythumbnail3.png';
 
 
 const useStyles = makeStyles({
@@ -17,8 +17,8 @@ const useStyles = makeStyles({
     marginTop: 40,
   },
   media: {
-    height: 140,
-  },
+    height: 60,
+    width: 400,  },
 });
 
 export default function MediaCard() {

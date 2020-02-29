@@ -11,12 +11,13 @@ import sendcodes1 from './image/sendcodes1.png';
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 400,
+    maxWidth: 360,
     marginLeft: 40,
     marginTop: 40,
   },
   media: {
-    height: 140,
+    height: 60,
+    width: 360,
     marginTop: 80,
   },
 });
@@ -30,7 +31,6 @@ export default function MediaCard() {
         <CardMedia
           className={classes.media}
           image={sendcodes1}
-          title="Contemplative Reptile"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">

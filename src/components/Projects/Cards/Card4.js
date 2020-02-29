@@ -17,8 +17,8 @@ const useStyles = makeStyles({
     marginTop: 40,
   },
   media: {
-    height: 140,
-  },
+    height: 60,
+    width: 400,  },
 });
 
 export default function MediaCard() {
