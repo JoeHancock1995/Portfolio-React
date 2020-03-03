@@ -9,16 +9,17 @@ import "./fonts/stylesheet.css";
 
 class App extends Component {
   render() {
-    return <Router>
+    return (
+    <Router>
       <Header/>
       <wrapper>
         <switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/contact" component={Contact} />
+          <Route exact path="/" component={Home} />
+          <Route path="/contact" component={Contact} />
         </switch>
-    </wrapper>
+      </wrapper>
     </Router>
-  }
+  )}
 }
 
 export default App;

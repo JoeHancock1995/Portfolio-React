@@ -18,10 +18,16 @@ const Header = (props) => {
         </ul>
         <ul className="navbar-nav ml-auto">
             <li className="nav-item linkstr">
-                <Link className="nav-link" to="/snippets">Snippets</Link>
+                <Link className="nav-link" to="/About">About</Link>
             </li>
             <li className="nav-item linkstr">
                 <Link className="nav-link" to="/contact">Contact</Link>
+            </li>
+            <li>
+                <a class="active" href="https://www.linkedin.com/in/joe-hancock-7677ab77/"><img src={linkedin} alt="linkedin vector"/></a>
+            </li>
+            <li>
+                <a class="active" href="https://github.com/JoeHancock1995"><img src={github} alt="github vector"/></a>
             </li>
         </ul>
     </nav>
