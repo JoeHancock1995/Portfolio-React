@@ -4,7 +4,7 @@
     font-family: 'Crash';
 }
 .Name-link:hover{
-    color: #bbbbbb;
+    color: #aaaa;
     font-size: 62px;
     font-family: 'Crash';
     text-decoration: none;
@@ -27,7 +27,8 @@
     text-align: center;
     font-family:'Avante Go';
     font-size: 28px;
-    color: #bbbbbb;
+    color: #aaaa;
+    text-decoration: none;
 }
 
 
