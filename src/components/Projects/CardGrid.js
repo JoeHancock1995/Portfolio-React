@@ -9,6 +9,7 @@ import Card6 from './Cards/Card6';
 import Card7 from './Cards/Card7';
 import Card8 from './Cards/Card8';
 import Card9 from './Cards/Card9';
+import Card10 from './Cards/card10';
 
 export default props =>
 <Grid container>
@@ -38,5 +39,8 @@ export default props =>
     </Grid>
     <Grid item xs={4}>
         <Card9/>
+    </Grid>
+    <Grid item xs ={4}>
+        <Card10/>
     </Grid>
 </Grid>

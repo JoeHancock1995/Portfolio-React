@@ -29,7 +29,7 @@ export default function MediaCard() {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image={Triviathumbnail}
+          // image={Triviathumbnail}
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
