@@ -31,10 +31,13 @@ import Dish from '../Plume/images/dish.png';
 import House3 from '../Plume/images/house3.jpg';
 import Tallbw13 from '../Plume/images/tallbw13.jpg';
 
+const containerStyle = {
+    background: '#000000',
+}
 
 const Plume = () => {
     return (
-        <div className="container">
+        <div className="container" style={containerStyle}>
             <div className="row">
             <div className="column">
                 <img src={Gym1} alt="gyml1"/>

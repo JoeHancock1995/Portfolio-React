@@ -5,6 +5,7 @@ import Home from './components/Home/Home';
 import Contact from './components/contact/Contact';
 import Plume from './components/Plume/Plume';
 import "./fonts/stylesheet.css";
+import './App.css';
 
 
 
