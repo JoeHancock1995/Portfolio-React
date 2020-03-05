@@ -9,6 +9,9 @@
     flex-wrap: wrap;
     padding: 0 0px;
   }
+  .scene{
+    width: 100%;
+  }
   
   /* Create four equal columns that sits next to each other */
   .column {
