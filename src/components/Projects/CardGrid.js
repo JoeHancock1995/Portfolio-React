@@ -11,8 +11,11 @@ import Card8 from './Cards/Card8';
 import Card9 from './Cards/Card9';
 import Card10 from './Cards/card10';
 
+const containerStyle = {
+    background: '#000000',
+}
 export default props =>
-<Grid container>
+<Grid container style={containerStyle}>
     <Grid item xs={4}>
         <Card1/>
     </Grid>

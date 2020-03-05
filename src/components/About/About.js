@@ -2,6 +2,13 @@ import React from 'react';
 import './About.css';
 import ImageMe from '../About/img_me.png';
 
+const h1Style = {
+    textAlign: 'canter',
+    fontSize: '62px',
+    fontFamily: 'Crash',
+    color: '#FFFFFF',
+    background: '#000000',
+}
 const About = () => {
     return (
         <div className="aboutContainer">
@@ -11,6 +18,8 @@ const About = () => {
                 My passions include synthesizers, digital art, and computers. Plume is my personal
                 art and web development brand and can be viewed in the next page.
             </p>
+            <br/>
+            <h1 style={h1Style}>Projects</h1>
         </div>
     )
 }
