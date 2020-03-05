@@ -41,14 +41,14 @@ export default function MediaCard() {
       </CardActionArea>
       <CardActions>
         <Button size="small" color="primary">
-        <a href="https://github.com/JoeHancock1995/TriviaGame">
-            View Source Code
-        </a>
+          <a href="https://github.com/JoeHancock1995/TriviaGame">
+              View Source Code
+          </a>
         </Button>
         <Button size="small" color="primary">
-        <a href="https://joehancock1995.github.io/TriviaGame/">
-            Open in Browser
-        </a>
+          <a href="https://joehancock1995.github.io/TriviaGame/">
+              Open in Browser
+          </a>
         </Button>
       </CardActions>
     </Card>

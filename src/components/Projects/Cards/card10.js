@@ -41,9 +41,9 @@ export default function MediaCard() {
       </CardActionArea>
       <CardActions>
         <Button size="small" color="primary">
-        <a href="https://github.com/JoeHancock1995/Constructor-Word-Guess">
-            View Source Code
-        </a>
+          <a href="https://github.com/JoeHancock1995/Constructor-Word-Guess">
+              View Source Code
+          </a>
         </Button>
       </CardActions>
     </Card>
