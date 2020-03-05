@@ -13,6 +13,7 @@ import Card10 from './Cards/card10';
 
 const containerStyle = {
     background: '#000000',
+    paddingBottom: '5%',
 }
 export default props =>
 <Grid container style={containerStyle}>
