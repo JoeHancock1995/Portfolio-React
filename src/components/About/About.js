@@ -3,11 +3,12 @@ import './About.css';
 import ImageMe from '../About/img_me.png';
 
 const h1Style = {
-    textAlign: 'canter',
+    textAlign: 'left',
     fontSize: '62px',
     fontFamily: 'Crash',
     color: '#FFFFFF',
     background: '#000000',
+    marginTop: '30px',
 }
 const About = () => {
     return (

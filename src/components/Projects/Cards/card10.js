@@ -7,17 +7,20 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import CLIwgthumbnail from './image/CLIwg.png';
+import '../../../fonts/stylesheet.css';
 
 const useStyles = makeStyles({
   root: {
     maxWidth: 400,
     marginLeft: 40,
     marginTop: 40,
+    fontFamily: 'Ticketing',
   },
   media: {
     height: 60,
     width: 400,
     border: '5px outset white',
+
     },
 });
 
@@ -33,10 +36,10 @@ export default function MediaCard() {
         />
         <CardContent>
           <h2>
-            Constructor Word Guess App
+            Command Line Word Guess
           </h2>
           <p>
-          Enter project description
+          This app is a word guessing game like hangman but within the command line.
           </p>
         </CardContent>
       </CardActionArea>

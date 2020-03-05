@@ -13,6 +13,7 @@ const useStyles = makeStyles({
     maxWidth: 400,
     marginLeft: 40,
     marginTop: 40,
+    fontFamily: 'Ticketing',
   },
   media: {
     height: 60,

@@ -1,12 +1,12 @@
 .aboutContainer{
-    font-family: 'NewMedia';
+    font-family: 'ConmanRegular';
     font-size: 24px;
     text-align: center;
     background-color: #000000;
     color: #ffffff;
     padding-right: 15%;
     padding-top: 1%;
-    padding-bottom: 4%;
+    padding-bottom: 1%;
 }
 .imageMe{
     border: #ffffff double 10px;
