@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import * as BABYLON from "babylonjs";
 
 var scene;
-var boxMesh;
+
 
 class BabylonScene extends Component {
   constructor(props) {
@@ -32,8 +32,7 @@ class BabylonScene extends Component {
 
     //Animation
     scene.registerBeforeRender(() => {
-      boxMesh.rotation.y += 0.01;
-      boxMesh.rotation.x += 0.01;
+
     });
   };
 
@@ -348,20 +347,7 @@ class BabylonScene extends Component {
    */
   addModels = () => {
       
-    // Add BOX
-    boxMesh = BABYLON.MeshBuilder.CreateBox(
-      "box",
-      { height: 1, width: 1, depth: 1 },
-      scene
-    );
-    boxMesh.position.y = 1;
 
-    var woodMaterial = new BABYLON.StandardMaterial("wood", scene);
-    woodMaterial.diffuseTexture = new BABYLON.Texture(
-      "./assets/portal_cube.png",
-      scene
-    );
-    boxMesh.material = woodMaterial;
   };
 
   render() {
