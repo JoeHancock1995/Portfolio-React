@@ -19,10 +19,8 @@ class BabylonScene extends Component {
     this.addLight();
     //--Camera---
     this.addCamera();
-    //--Meshes---
-    this.addModels();
     //--Ground---
-    this.addGround();
+    this.addBuilding();
     // Add Events
     window.addEventListener("resize", this.onWindowResize, false);
     // Render Loop
@@ -54,7 +52,7 @@ class BabylonScene extends Component {
     camera.attachControl(this.canvas, true);
   };
 
-  addGround = () => {
+  addBuilding = () => {
     var ground = BABYLON.MeshBuilder.CreateBox("ground", {width: 104, height: 126, depth: 2}, scene);
     var ceiling = BABYLON.MeshBuilder.CreateBox("ceiling", {width: 104, height: 126, depth: 2}, scene);
 
@@ -342,13 +340,6 @@ class BabylonScene extends Component {
     galleryCube6.checkCollisions = true;
   };
 
-  /**
-   * Add Models
-   */
-  addModels = () => {
-      
-
-  };
 
   render() {
     return (
