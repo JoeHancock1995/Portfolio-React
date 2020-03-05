@@ -55,7 +55,8 @@ function LinkTab(props) {
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
-    backgroundColor: '#000000'
+    backgroundColor: '#000000',
+    fontFamily: 'ConmanRegular'
   },
 }));
 
@@ -74,7 +75,7 @@ export default function NavTabs() {
           variant="fullWidth"
           value={value}
           onChange={handleChange}
-          aria-label="nav tabs example"
+          aria-label="nav tabs"
         >
           <LinkTab label="Version One" href="/Plume" {...a11yProps(0)} />
           <LinkTab label="Version Two" href="/PlumeV2" {...a11yProps(1)} />

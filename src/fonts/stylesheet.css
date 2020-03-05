@@ -126,3 +126,21 @@
     src:url("CRASH___.woff2") format("woff2"),url("CRASH___.woff") format("woff");
     font-style:normal;font-weight:400;
 }
+@font-face {
+    font-family:"ArgentumWhite";
+    src:url("ARGEW___.woff2") format("woff2"),url("ARGEW___.woff") format("woff");
+    font-style:normal;font-weight:400;
+}
+
+@font-face {
+    font-family:"ArgentumBlack";
+    src:url("ARGEBL__.woff2") format("woff2"),url("ARGEBL__.woff") format("woff");
+    font-style:normal;font-weight:400;
+}
+
+@font-face {
+    font-family:"ArgentumShine";
+    src:url("ARGES___.woff2") format("woff2"),url("ARGES___.woff") format("woff");
+    font-style:normal;font-weight:400;
+}
+        
