@@ -6,7 +6,6 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
-import Typography from '@material-ui/core/Typography';
 import repthumbnail from './image/repothumbnail.png';
 
 const useStyles = makeStyles({
@@ -32,21 +31,25 @@ export default function MediaCard() {
           image={repthumbnail}
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
+          <h2>
             Reporganizer
-          </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
+          </h2>
+          <p>
           Reporganizer is an easy to use interface for developers to find and sort their Repositories from GitHub. 
           The user can create custom tags, organize, hide repos, etc.
-          </Typography>
+          </p>
         </CardContent>
       </CardActionArea>
       <CardActions>
         <Button size="small" color="primary">
-            View Source Code
+          <a href="https://github.com/JoeHancock1995/reporganizer">
+              View Source Code
+          </a>
         </Button>
         <Button size="small" color="primary">
-            Open in Browser
+          <a href="https://reporganizer.herokuapp.com">
+              Open in Browser
+          </a>
         </Button>
       </CardActions>
     </Card>

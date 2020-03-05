@@ -6,7 +6,6 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
-import Typography from '@material-ui/core/Typography';
 import nbadash from './image/nbadash.png';
 
 
@@ -33,21 +32,25 @@ export default function MediaCard() {
           image={nbadash}
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
+          <h2>
             Basketball Dashboard
-          </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
+          </h2>
+          <p>
           an app that displays all the NBA teams with recent scores, players, and weather in 
           that city for the following week in a simple and straightforward layout.
-          </Typography>
+          </p>
         </CardContent>
       </CardActionArea>
       <CardActions>
         <Button size="small" color="primary">
+        <a href="https://github.com/JoeHancock1995/NBAdashboard-Version2-">
             View Source Code
+        </a>
         </Button>
         <Button size="small" color="primary">
+        <a href="https://joehancock1995.github.io/NBAdashboard-Version2-/">
             Open in Browser
+        </a>
         </Button>
       </CardActions>
     </Card>

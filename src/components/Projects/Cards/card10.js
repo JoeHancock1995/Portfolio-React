@@ -6,8 +6,7 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
-import Typography from '@material-ui/core/Typography';
-// import Triviathumbnail from './image/triviathumbnail.png';
+import CLIwgthumbnail from './image/CLIwg.png';
 
 const useStyles = makeStyles({
   root: {
@@ -29,23 +28,22 @@ export default function MediaCard() {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          // image={Triviathumbnail}
+          image={CLIwgthumbnail}
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
+          <h2>
             Constructor Word Guess App
-          </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
+          </h2>
+          <p>
           Enter project description
-          </Typography>
+          </p>
         </CardContent>
       </CardActionArea>
       <CardActions>
         <Button size="small" color="primary">
+        <a href="https://github.com/JoeHancock1995/Constructor-Word-Guess">
             View Source Code
-        </Button>
-        <Button size="small" color="primary">
-            Open in Browser
+        </a>
         </Button>
       </CardActions>
     </Card>

@@ -6,7 +6,6 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
-import Typography from '@material-ui/core/Typography';
 import Triviathumbnail from './image/triviathumbnail.png';
 
 const useStyles = makeStyles({
@@ -32,20 +31,24 @@ export default function MediaCard() {
           image={Triviathumbnail}
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
+          <h2>
             Nuclear Trivia
-          </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
+          </h2>
+          <p>
           A trivia game about things nuclear weapons related. The user is asked 8 questions in 1 minute then given a score.
-          </Typography>
+          </p>
         </CardContent>
       </CardActionArea>
       <CardActions>
         <Button size="small" color="primary">
+        <a href="https://github.com/JoeHancock1995/TriviaGame">
             View Source Code
+        </a>
         </Button>
         <Button size="small" color="primary">
+        <a href="https://joehancock1995.github.io/TriviaGame/">
             Open in Browser
+        </a>
         </Button>
       </CardActions>
     </Card>

@@ -6,7 +6,6 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
-import Typography from '@material-ui/core/Typography';
 import cardthumbnail from './image/cardthumbnail.png';
 
 
@@ -33,21 +32,25 @@ export default function MediaCard() {
           image={cardthumbnail}
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
+          <h2>
             Card Collecter
-          </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
+          </h2>
+          <p>
           Game which generates a random score to reach then assigns a random number to each of the four cards.
            The user wins if they can add up to the number given.
-          </Typography>
+          </p>
         </CardContent>
       </CardActionArea>
       <CardActions>
         <Button size="small" color="primary">
+        <a href="https://github.com/JoeHancock1995/unit-4-game">
             View Source Code
+        </a>
         </Button>
         <Button size="small" color="primary">
+        <a href="https://joehancock1995.github.io/unit-4-game/">
             Open in Browser
+        </a>
         </Button>
       </CardActions>
     </Card>
