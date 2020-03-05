@@ -37,8 +37,8 @@ export default function MediaCard() {
           </h2>
           <p>
           LIRI acts like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface,
-           LIRI is a Language Interpretation and Recognition Interface. LIRI is be a command line node app which
-            uses the axios package to send requests to the Bands in Town, Spotify and OMDB APIs gives back data.
+           LIRI is a Language Interpretation and Recognition Interface. LIRI is a command line app which
+            returns data from the Bands in Town, Spotify and OMDB APIs.
           </p>
         </CardContent>
       </CardActionArea>
