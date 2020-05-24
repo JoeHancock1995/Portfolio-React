@@ -76,7 +76,7 @@ class BabylonScene extends Component {
   };
 
   addLight = () => {
-    var light = new BABYLON.HemisphericLight("hemi", new BABYLON.Vector3(0, 1, 0), scene);  
+    new BABYLON.HemisphericLight("hemi", new BABYLON.Vector3(0, 1, 0), scene);  
 };
 
   addCamera = () => {
