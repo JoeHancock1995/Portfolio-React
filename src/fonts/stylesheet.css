@@ -1,146 +1,75 @@
-
-
 @font-face {
-    font-family:"bunker";
-    src:url("bunker.woff2") format("woff2"),url("bunker.woff") format("woff");
+    font-family:"The King Of Fighters";
+    src:url("The King of Fighters Font.woff2") format("woff2"),url("The King of Fighters Font.woff") format("woff"), format("opentype");
     font-style:normal;font-weight:400;
 }
 
 @font-face {
-    font-family:"Gaposis Solid (BRK)";
-    src:url("gaposiss.woff2") format("woff2"),url("gaposiss.woff") format("woff");
+    font-family:"NK57MonospaceCdBk-Regular";
+    src:url("nk57-monospace-cd-bk.woff2") format("woff2"),url("nk57-monospace-cd-bk.woff") format("woff"), format("opentype");
     font-style:normal;font-weight:400;
 }
 
 @font-face {
-    font-family:"Gentleman Caller";
-    src:url("GentlemanCaller.woff2") format("woff2"),url("GentlemanCaller.woff") format("woff");
+    font-family:"DS Crystal";
+    src:url("cristal.woff2") format("woff2"),url("cristal.woff") format("woff"), format("opentype");
     font-style:normal;font-weight:400;
 }
+
 @font-face {
-    font-family:"Ionic Charge";
-    src:url("ionic.woff2") format("woff2"),url("ionic.woff") format("woff");
+    font-family:"Digital dream";
+    src:url("Digitaldream.woff2") format("woff2"),url("Digitaldream.woff") format("woff"), format("opentype");
     font-style:normal;font-weight:400;
 }
+
 @font-face {
-    font-family:"MW PITHY";
-    src:url("MW_PITHY.woff2") format("woff2"),url("MW_PITHY.woff") format("woff");
+    font-family:"Commando";
+    src:url("commando.woff2") format("woff2"),url("commando.woff") format("woff"), format("opentype");
+    font-style:normal;font-weight:400;
+}
+
+@font-face {
+    font-family:"Conman Regular";
+    src:url("ConmanRegular.woff2") format("woff2"),url("ConmanRegular.woff") format("woff"), format("opentype");
+    font-style:normal;font-weight:400;
+}
+
+@font-face {
+    font-family:"Digital Readout Thick Upright";
+    src:url("Digirtu_.woff2") format("woff2"),url("Digirtu_.woff") format("woff"), format("opentype");
+    font-style:normal;font-weight:400;
+}
+
+@font-face {
+    font-family:"Garaje53Unicase-Black";
+    src:url("Garaje 53 Uni Black.woff2") format("woff2"),url("Garaje 53 Uni Black.woff") format("woff"), format("opentype");
+    font-style:normal;font-weight:400;
+}
+
+@font-face {
+    font-family:"Font";
+    src:url("FONT.woff2") format("woff2"),url("FONT.woff") format("woff"), format("opentype");
+    font-style:normal;font-weight:400;
+}
+
+@font-face {
+    font-family:"IndochineNF";
+    src:url("INDON___.woff2") format("woff2"),url("INDON___.woff") format("woff"), format("opentype");
     font-style:normal;font-weight:400;
 }
 
 @font-face {
     font-family:"NewMedia";
-    src:url("NewMedia.woff2") format("woff2"),url("NewMedia.woff") format("woff");
-    font-style:normal;font-weight:400;
-}
-@font-face {
-    font-family:"panda ROBOT";
-    src:url("panda ROBOT.woff2") format("woff2"),url("panda ROBOT.woff") format("woff");
+    src:url("NewMedia.woff2") format("woff2"),url("NewMedia.woff") format("woff"), format("opentype");
     font-style:normal;font-weight:400;
 }
 
 @font-face {
-    font-family:"TANTOR";
-    src:url("TANTOR__.woff2") format("woff2"),url("TANTOR__.woff") format("woff");
-    font-style:normal;font-weight:400;
-}
-
-@font-face {
-    font-family:"TGL 31034-2";
-    src:url("TGL 31034-2.woff2") format("woff2"),url("TGL 31034-2.woff") format("woff");
-    font-style:normal;font-weight:400;
-}
-@font-face {
-    font-family:"Voyager grotesque";
-    src:url("Voyager Grotesque(regular).woff2") format("woff2"),url("Voyager Grotesque(regular).woff") format("woff");
-    font-style:normal;font-weight:400;
-}
-@font-face {
-    font-family:"WinterthurCondensedOblique";
-    src:url("WinterthurCondensedOblique.woff2") format("woff2"),url("WinterthurCondensedOblique.woff") format("woff");
-    font-style:normal;font-weight:400;
-}
-@font-face {
-    font-family:"Ye Old Shire Outline";
-    src:url("Ye Old Shire Outline.woff2") format("woff2"),url("Ye Old Shire Outline.woff") format("woff");
-    font-style:normal;font-weight:400;
-}
-@font-face {
-    font-family:"Ye Old Shire";
-    src:url("Ye Old Shire.woff2") format("woff2"),url("Ye Old Shire.woff") format("woff");
-    font-style:normal;font-weight:400;
-}
-@font-face {
-    font-family:"Year 2000 Replicant";
-    src:url("YEARR___.woff2") format("woff2"),url("YEARR___.woff") format("woff");
-    font-style:normal;font-weight:400;
-}
-@font-face {
-    font-family:"Yold Anglican";
-    src:url("YOLDA___.woff2") format("woff2"),url("YOLDA___.woff") format("woff");
-    font-style:normal;font-weight:400;
-}
-@font-face {
-    font-family:"Lumio";
-    src:url("Young.woff2") format("woff2"),url("Young.woff") format("woff");
-    font-style:normal;font-weight:400;
-}
-@font-face {
-    font-family:"Zorque";
-    src:url("zorque.woff2") format("woff2"),url("zorque.woff") format("woff");
-    font-style:normal;font-weight:400;
-}
-
-@font-face {
-    font-family:"SbB Epyx Shadow Regular";
-    src:url("sbb-epyx-shadow.woff2") format("woff2"),url("sbb-epyx-shadow.woff") format("woff");
-    font-style:normal;font-weight:400;
-}
-@font-face {
-    font-family:"rockdafonkybitRegular";
-    src:url("rockdafonkybit.woff2") format("woff2"),url("rockdafonkybit.woff") format("woff");
-    font-style:normal;font-weight:400;
-}
-@font-face {
-    font-family:"Quad-Black";
-    src:url("Quad Black.woff2") format("woff2"),url("Quad Black.woff") format("woff");
+    font-family:"Seven Segment";
+    src:url("Seven Segment.woff2") format("woff2"),url("Seven Segment.woff") format("woff"), format("opentype");
     font-style:normal;font-weight:400;
 }
 
 
 
-@font-face {
-    font-family:"Warsaw Gothic";
-    src:url("WarsawGothic.woff2") format("woff2"),url("WarsawGothic.woff") format("woff");
-    font-style:normal;font-weight:400;
-}
-
-@font-face {
-    font-family:"Ticketing";
-    src:url("Ticketing.woff2") format("woff2"),url("Ticketing.woff") format("woff");
-    font-style:normal;font-weight:400;
-}
-
-@font-face {
-    font-family:"Crash";
-    src:url("CRASH___.woff2") format("woff2"),url("CRASH___.woff") format("woff");
-    font-style:normal;font-weight:400;
-}
-@font-face {
-    font-family:"ArgentumWhite";
-    src:url("ARGEW___.woff2") format("woff2"),url("ARGEW___.woff") format("woff");
-    font-style:normal;font-weight:400;
-}
-
-@font-face {
-    font-family:"ArgentumBlack";
-    src:url("ARGEBL__.woff2") format("woff2"),url("ARGEBL__.woff") format("woff");
-    font-style:normal;font-weight:400;
-}
-
-@font-face {
-    font-family:"ArgentumShine";
-    src:url("ARGES___.woff2") format("woff2"),url("ARGES___.woff") format("woff");
-    font-style:normal;font-weight:400;
-}
         

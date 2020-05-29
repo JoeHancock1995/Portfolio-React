@@ -1,12 +1,12 @@
 .Name-link{
-    color: #ffffff;
+    color: #000000;
     font-size: 62px;
-    font-family: 'Crash';
+    font-family: 'The Led Display St';
 }
 .Name-link:hover{
     color: #aaaa;
     font-size: 62px;
-    font-family: 'Crash';
+    font-family: 'The Led Display St';
     text-decoration: none;
 }
 .Nav-link {
@@ -15,9 +15,9 @@
     margin-left: 15px;
     margin-right: 15px;
     text-align: center;
-    font-family:'ConmanRegular';
+    font-family:'Seven Segment';
     font-size: 28px;
-    color: #ffffff;
+    color: #000000;
 }
 .Nav-link:hover {
     /* border: 2px grey inset; */
@@ -25,7 +25,7 @@
     margin-left: 15px;
     margin-right: 15px;
     text-align: center;
-    font-family:'ConmanRegular';
+    font-family:'Seven Segment';
     font-size: 28px;
     color: #aaaa;
     text-decoration: none;
@@ -40,7 +40,7 @@
 }
 
 nav {
-    background-color: #000000;
+    background-color: #ffffff;
 }
 .vectors{
     margin-left: 10px;

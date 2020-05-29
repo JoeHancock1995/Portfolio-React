@@ -12,7 +12,7 @@ import Card9 from './Cards/Card9';
 import Card10 from './Cards/card10';
 
 const containerStyle = {
-    background: '#000000',
+    background: '#fffff',
     paddingBottom: '5%',
 }
 export default props =>

@@ -6,8 +6,8 @@ const h1Style = {
     textAlign: 'left',
     fontSize: '62px',
     fontFamily: 'Crash',
-    color: '#FFFFFF',
-    background: '#000000',
+    color: '#000000',
+    background: '#FFFFFF',
     marginTop: '30px',
 }
 const About = () => {
