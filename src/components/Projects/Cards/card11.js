@@ -8,7 +8,7 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
-// import Triviathumbnail from './image/triviathumbnail.png';
+import Covidthumbnail from './image/covidV.png';
 
 const useStyles = makeStyles({
     root: {
@@ -32,27 +32,27 @@ export default function MediaCard() {
             <CardActionArea>
                 <CardMedia
                     className={classes.media}
-                    // image={Triviathumbnail}
+                    image={Covidthumbnail}
                 />
                 <CardContent>
                     <h2>
                        COVID-19 Charts
-          </h2>
+                    </h2>
                     <p>An app displaying charts of COVID-19 cases and deaths in the United States in addition to a chart displaying
                         the cases in Texas cities. The Texas cities chart uses the greater metropoliton area and adds up the necessary counties. </p>
                 </CardContent>
             </CardActionArea>
             <CardActions>
                 <Button size="small" color="primary">
-                    <a href=" ">
+                    <a href="https://github.com/JoeHancock1995/COVID-19-Visualizer">
                         View Source Code
-          </a>
+                    </a>
                 </Button>
-                <Button size="small" color="primary">
+                {/* <Button size="small" color="primary">
                     <a href=" ">
                         Open in Browser
-          </a>
-                </Button>
+                    </a>
+                </Button> */}
             </CardActions>
         </Card>
     );

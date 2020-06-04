@@ -10,9 +10,10 @@ import Card7 from './Cards/Card7';
 import Card8 from './Cards/Card8';
 import Card9 from './Cards/Card9';
 import Card10 from './Cards/card10';
+import Card11 from './Cards/card11';
 
 const containerStyle = {
-    background: '#fffff',
+    background: '#000000',
     paddingBottom: '5%',
 }
 export default props =>
@@ -47,4 +48,7 @@ export default props =>
     <Grid item xs ={4}>
         <Card10/>
     </Grid>
+        <Grid item xs={4}>
+            <Card11 />
+        </Grid>
 </Grid>

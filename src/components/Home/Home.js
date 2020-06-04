@@ -1,14 +1,14 @@
 import React from 'react';
 import Cardgrid from '../Projects/CardGrid';
-// import About from '../About/About';
+import Contact from '../contact/Contact';
 import Scene from '../Cube/Scene';
 
 const Home = () => {
     return (
         <div>
             <Scene/>
-            {/* <About /> */}
             <Cardgrid/>
+            <Contact/>
         </div>
     )
 }

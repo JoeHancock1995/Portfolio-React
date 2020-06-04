@@ -18,15 +18,6 @@ const Header = (props) => {
             <li className="nav-item linkstr">
                 <Link className="Nav-link" to="/Plume">Plume</Link>
             </li>
-            <li className="nav-item linkstr">
-                <Link className="Nav-link" to="/contact">Contact</Link>
-            </li>
-            {/* <li>
-                <a class="vectors" href="https://www.linkedin.com/in/joe-hancock-7677ab77/"><img src={linkedin} alt="linkedin vector"/></a>
-            </li>
-            <li>
-                <a class="vectors" href="https://github.com/JoeHancock1995"><img src={github} alt="github vector"/></a>
-            </li> */}
         </ul>
     </nav>
 </div>
