@@ -14,11 +14,11 @@ const Header = (props) => {
                 <Link className="Name-link" to="/">Joe Hancock</Link>
             </li>
         </ul>
-        <ul className="navbar-nav ml-auto">
+        {/* <ul className="navbar-nav ml-auto">
             <li className="nav-item linkstr">
                 <Link className="Nav-link" to="/Plume">Plume</Link>
             </li>
-        </ul>
+        </ul> */}
     </nav>
 </div>
   );

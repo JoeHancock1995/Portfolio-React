@@ -1,6 +1,6 @@
 import React from 'react';
 import Cardgrid from '../Projects/CardGrid';
-import Contact from '../contact/Contact';
+// import Contact from '../contact/Contact';
 import Scene from '../Cube/Scene';
 
 const Home = () => {
@@ -8,7 +8,7 @@ const Home = () => {
         <div>
             <Scene/>
             <Cardgrid/>
-            <Contact/>
+            {/* <Contact/> */}
         </div>
     )
 }
