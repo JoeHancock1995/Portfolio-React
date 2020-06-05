@@ -70,6 +70,16 @@
     font-style:normal;font-weight:400;
 }
 
+@font-face {
+    font-family:"Crash";
+    src:url("CRASH___.woff2") format("woff2"),url("CRASH___.woff") format("woff"), format("opentype");
+    font-style:normal;font-weight:400;
+}
 
-
+@font-face {
+    font-family:"Gamma Scale";
+    src:url("Gamma.woff2") format("woff2"),url("Gamma.woff") format("woff"), format("opentype");
+    font-style:normal;font-weight:400;
+}
+        
         

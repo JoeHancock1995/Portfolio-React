@@ -48,11 +48,11 @@ export default function MediaCard() {
                         View Source Code
                     </a>
                 </Button>
-                {/* <Button size="small" color="primary">
-                    <a href=" ">
+                <Button size="small" color="primary">
+                    <a href="https://joehancock1995.github.io/COVID-19-Visualizer/">
                         Open in Browser
                     </a>
-                </Button> */}
+                </Button>
             </CardActions>
         </Card>
     );

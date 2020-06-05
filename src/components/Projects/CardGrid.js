@@ -25,6 +25,9 @@ export default props =>
         <Card2/>
     </Grid>
     <Grid item xs={4}>
+        <Card11 />
+    </Grid>
+    <Grid item xs={4}>
         <Card3/>
     </Grid>
     <Grid item xs={4}>
@@ -48,7 +51,4 @@ export default props =>
     <Grid item xs ={4}>
         <Card10/>
     </Grid>
-        <Grid item xs={4}>
-            <Card11 />
-        </Grid>
 </Grid>
