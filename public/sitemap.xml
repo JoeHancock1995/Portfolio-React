@@ -7,6 +7,3 @@
     <priority>1.0</priority>
   </url>
 </urlset>
-# https://www.robotstxt.org/robotstxt.html
-User-agent: *
-Disallow:
